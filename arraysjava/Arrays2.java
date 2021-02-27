@@ -37,22 +37,22 @@ public class Arrays2 {
         indexIndex[4] = 1; // 2
         int x = 0;
         int ref;
+        int refRef;
+            
+        //declare and create another array
+        String[] classmates = new String[5];
+        
+        //pass values to new array
+        classmates[0] = "Shane"; 
+        classmates[1] = "Rashid";
+        classmates[2] = "Prince";
+        classmates[3] = "Kunty";
+        classmates[4] = "Asher";
+            
         while (x < 5) {
             ref = index[x];
             int y = indexIndex[ref];
             x+=1;
-        
-            //declare and create another array
-            String[] classmates = new String[5];
-        
-            //pass values to new array
-            classmates[0] = "Shane"; 
-            classmates[1] = "Rashid";
-            classmates[2] = "Prince";
-            classmates[3] = "Kunty";
-            classmates[4] = "Asher";
-            int refRef;
-            
             refRef = indexIndex[y];
             System.out.print("Classmates: ");
             System.out.println(classmates[refRef]);
