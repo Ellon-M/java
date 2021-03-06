@@ -38,7 +38,7 @@ public class LinkedLists {
      grd.removeLast();
      grd.addLast(89);
      
-         System.out.println("Updated grades: " + grd);
+     System.out.println("Updated grades: " + grd);
          
      // other specific methods - addFirst, removeFirst, getFirst, getLast..
      
