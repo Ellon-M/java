@@ -60,7 +60,9 @@ public class Arrays2 {
             //The print("...") method instead prints just the string "...", 
             //but does not move the cursor to a new line.
             //The println("...") method prints the string "...",
-            //and moves the cursor to a new line.        
+            //and moves the cursor to a new line.  
+            
+            // guess the output
         }
     }
 }
