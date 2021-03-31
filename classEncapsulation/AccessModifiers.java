@@ -10,6 +10,7 @@ package classEncapsulation;
  * @author ellon
  */
 public class AccessModifiers {
+    // Encapsulation....
     // the wrapping up of data and functions into one single unit
     // where the data is not accessible to the outside world, and 
     // only the functions which are wrapped (encapsulated) in the class can access it.
