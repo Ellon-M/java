@@ -12,7 +12,7 @@ package classEncapsulation;
 public class NonAccessModifiers {
     // these modifiers are not used to control access to classes,
     // but they provide other functionality..
-    // they describe how a class can be accessed
+    // they describe how a class can be manipulated
     
     // they are usually used during class inheritance
     
