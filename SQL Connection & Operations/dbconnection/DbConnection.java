@@ -21,7 +21,7 @@ public class DbConnection {
         String hostname = "localhost";
         String database = "students_DB";
         String username = "root";
-        String password = "LilacSkies@112";     // password goes here
+        String password = "";     // password goes here
         
     // JDBC
     // This is a java API that connects us to the database by using drivers..
