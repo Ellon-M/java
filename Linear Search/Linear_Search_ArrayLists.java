@@ -36,7 +36,7 @@ public class Linear_Search_ArrayLists {
         int q = 0;
         boolean prime;
         ArrayList<Integer> primeArr = new ArrayList<>();
-       boolean rep = false;
+        boolean rep = false;
 
 
         Linear_Search_ArrayLists linearSearchArrayLists = new Linear_Search_ArrayLists();
