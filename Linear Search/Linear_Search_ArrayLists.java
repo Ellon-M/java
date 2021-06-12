@@ -18,7 +18,7 @@ public class Linear_Search_ArrayLists {
     public void linearSearch (int q, ArrayList<Integer> arr) {
         for (int i = 0; i < arr.size(); i++) {
             if (q == arr.get(i)) {
-                System.out.println("The number " + q + " is in index " + i);
+                System.out.println("The number " + q + " is in index " + arr.indexOf(q);
                 break;
             }
             else if (q != arr.get(i) && q < arr.get(i)) {
@@ -33,10 +33,9 @@ public class Linear_Search_ArrayLists {
     }
 
     public static void main(String[] args) {
-        int q = 0;
-        boolean prime;
+        int q;
         ArrayList<Integer> primeArr = new ArrayList<>();
-        boolean rep = false;
+        boolean rep;
 
 
         Linear_Search_ArrayLists linearSearchArrayLists = new Linear_Search_ArrayLists();
@@ -47,7 +46,7 @@ public class Linear_Search_ArrayLists {
             rep = true;
 
             for (int n = 2; n < 100; n++) {
-                prime = linearSearchArrayLists.checkPrime(n);
+                boolean prime = linearSearchArrayLists.checkPrime(n);
                 if (prime) {
                     primeArr.add(n);
                 }
